@@ -1,0 +1,180 @@
+body {
+    direction: rtl;
+}
+
+/* Static navbar */
+.topnavbar {
+    background-color: #07049C;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#navbarSupportedContent {
+    background-color: white;
+    width: 100%;
+}
+
+#logo {
+    position: absolute;
+    right: -150px;
+}
+
+@media (max-width: 988px) {
+    #logo {
+    float: right;        
+    position: relative;
+    }
+    #logo img {
+        width: 50%;
+    }
+}
+
+/* slick carousel */
+#slick-images {
+    height: 400px;
+}
+
+#slick-images div img{
+    width: 100%; 
+}
+
+/* cards */
+.topContent img {
+    width: 100%
+}
+.rightContent img {
+    width: 100%
+}
+
+.leftContent{
+    width: 150px;
+    text-align: right;
+    background-color: #07049C;
+    color: white;
+}
+.bottomContent {
+    display: flex;
+    background-color: #07049C;
+    color: white;
+    
+}
+
+#title {
+    text-align: right;
+    text-decoration-line: none;
+}
+
+/* vertical and horizontal boxes */
+.box {
+    padding: 10px;
+    flex-grow: 1;
+    display: inline;
+}
+.vbox {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.card .vbox {
+    display: flex;
+
+}
+
+.text {
+    flex: 0 0 65%;
+  }
+.arrow {
+    flex: 1;
+  }
+
+/* Titles for sections */
+.line {
+    font-size: x-large;
+    text-align: center;
+}
+.line span {
+    text-decoration-line: line-through;
+}
+.line div {
+    text-align: right;
+    text-decoration-line: underline;
+}
+
+/* Footers and navabrs */
+.footerTop {
+    background-color: rgba(24, 24, 36, 0.582);
+    color: white;
+    direction: rtl;
+    text-align: right;
+}
+
+.col-sm-6 .title {
+    font-size: medium;
+}
+.col-sm-6 .smallTitle {
+    font-size: x-small;
+    padding-bottom: 10px;
+}
+
+#footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+.navbar {
+    height: 50px;
+    position: fixed;
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+
+/* Font Awesome Icons */
+
+.fas {
+    font-size: 25px;
+}
+
+.fab {
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 50%;
+  }
+  
+  .fab:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-volume-mute {
+      background-color: white;
+      color: black;
+      float: left;
+  }
+
+  /* Social icons */
+  .fa-facebook-square {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  #social {
+    float: left;
+    position: relative;
+  }
+
+  #social li {
+    padding: 5px;
+  }
